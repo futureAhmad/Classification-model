@@ -3,7 +3,7 @@
 I implemented four classification algorithms to find the best one that 
 have high accuracy, which are:
 <div style="text-align:justify">
-**1. Logistic regression** <br>
+<b>1. Logistic regression</b> <br>
 This algorithm is used to classify the data, the used of this algorithm is to identify the relationship between a continuous dependent variable and one or more independent variables by represent a curved line between the data point, the line is like letter S and this is the reason of the name of this algorithm. Also, I didn’t 
 change the hyperparameter default values.
 **Accuracy:** 70.8 % **F1 score:** 70.1 %
