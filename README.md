@@ -3,22 +3,22 @@
 I implemented four classification algorithms to find the best one that 
 have high accuracy, which are:
 
-**1. Logistic regression** <br>
+<b>1. Logistic regression</b> <br>
 This algorithm is used to classify the data, the used of this algorithm is to identify the relationship between a continuous dependent variable and one or more independent variables by represent a curved line between the data point, the line is like letter S and this is the reason of the name of this algorithm. Also, I didn’t 
 change the hyperparameter default values.
 **Accuracy:** 70.8 % **F1 score:** 70.1 %
 
-**2. Support Vector Machine (SVM)**
+**2. Support Vector Machine (SVM)** <br>
 SVM is one of the most popular Supervised Learning algorithms, which is used for Classification and Regression problems. However, primarily, it is used for Classification problems in Machine Learning. The goal of the SVM algorithm is to create the best line or decision boundary that can segregate n-dimensional space into 
 classes so that we can easily put the new data point in the correct category in the future. This best decision boundary is called a 
 hyperplane. I change the default value of hyperparameter such as the kernel, by default is rbf, I replace it into linear. Also, gamma hyperparameter by default is scale, I change it into auto. 
 **Accuracy:** 79.2 % **F1 score:** 78.9 %
 
-**3. Naïve Bayes**
+**3. Naïve Bayes** <br>
 This algorithm is used to classify the data. Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. So, it’s set of algorithms where all of them share a common principle. This algorithm is predicting membership probabilities for each class such as the probability that given data point belongs to a particular class. The class with the highest probability is considered as the most likely class. This is also known as Maximum A Posteriori (MAP). Also, I didn’t change the hyperparameter default values.
 **Accuracy:** 76.1 % **F1 score:** 75.1 %
 
-**4. Random forest classifier**
+**4. Random forest classifier** <br>
 Random forest is one of the most popular Supervised Learning algorithms, which is used for Classification as well asRegression problems. However, primarily, it is used for Classification problems in Machine Learning. Random forest is similar to decision tree, but the difference is that the decision tree is produce a single tree, but the random forest is builds multiple decision trees and merge them together to get a more accurate and stable prediction, and this why we called it forest.
 
 The first step in this algorithm is to split the training data into several trees, each tree will train random data points from the origin training data, but each tree have different data points or records, this split of training data is called boosting sampling.
