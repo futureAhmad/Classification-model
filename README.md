@@ -2,7 +2,7 @@
 ## Chosen algorithms
 I implemented four classification algorithms to find the best one that 
 have high accuracy, which are:
-
+<p align="justify">
 <b>1. Logistic regression</b> <br>
 This algorithm is used to classify the data, the used of this algorithm is to identify the relationship between a continuous dependent variable and one or more independent variables by represent a curved line between the data point, the line is like letter S and this is the reason of the name of this algorithm. Also, I didn’t 
 change the hyperparameter default values.
@@ -29,3 +29,4 @@ After that each tree was trained and it's ready to reception data to predict it,
 ## Data processing
 In our data set we have 16 features, and not all the feature is sensitive data to affect the accuracy for the model, so we ignore some feature in training model such as Nationality,PlaceofBirth, Semester, Relation, ParentAnsweringSurvey and ParentschoolSatisfaction was ignored is the training model so only 9 out of 16 was the train feature. 
 Some of the column or feature have categorical value, so it’s not numerical value that can machine learning deal with, so we convert every categorical value into numerical value by preprocessing library in sklearn, in this library we have function called LavelEncoder, this function will use some technique to convert the data into numeric value. So we use this function for 5 out of 9 features to convert the values. Actually, instead of dropping the column that has categorical value, then adding a new converted column from the old column, we overwrite the new values on the old values in every specific column.
+</p>
