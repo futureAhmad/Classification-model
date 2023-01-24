@@ -27,18 +27,5 @@ After that each tree was trained and it's ready to reception data to predict it,
 **Accuracy:** 86.5 % **F1 score:** 86.3 %
 
 ## Data processing
-In our data set we have 16 features, and not all the feature is sensitive data to affect the accuracy for the model, so we ignore some feature in training model such as Nationality,PlaceofBirth, Semester, Relation, ParentAnsweringSurvey and ParentschoolSatisfaction was ignored is the training model so only 9 out of 16 was the train feature.
+In our data set we have 16 features, and not all the feature is sensitive data to affect the accuracy for the model, so we ignore some feature in training model such as Nationality,PlaceofBirth, Semester, Relation, ParentAnsweringSurvey and ParentschoolSatisfaction was ignored is the training model so only 9 out of 16 was the train feature. 
 Some of the column or feature have categorical value, so it’s not numerical value that can machine learning deal with, so we convert every categorical value into numerical value by preprocessing library in sklearn, in this library we have function called LavelEncoder, this function will use some technique to convert the data into numeric value. So we use this function for 5 out of 9 features to convert the values. Actually, instead of dropping the column that has categorical value, then adding a new converted column from the old column, we overwrite the new values on the old values in every specific column.
-
-
-
-
-
-
-
-
-
-
-
-
-
